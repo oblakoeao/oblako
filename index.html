@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Landing Page Template With Flexbox</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+	
+
+</head>
+
+<body>
+
+	<header>
+		<div><img style="display:flex; margin: 5px 5px 5px 20px;width:40%;height: 40%;" src="assets/img/LOGO.svg"></div>
+		<div><h2><a href="#"></a></h2>
+		<nav>
+		</div>
+			<li><a href="#onas">О нас</a></li>
+			<li><a href="#dostopl">Оплата/доставка</a></li>
+			<li><a href="#contact">Контакты</a></li>
+		</nav></div>
+	</header>
+
+
+	<section  class="hero">
+		<div class="background-image" style="background-image: url(assets/img/hero.jpg);"></div>
+		<h1>Одноразовые электронные сигареты оптом</h1>
+		<h3>Склад в Хабаровске</h3>
+		<a href="http://tutorialzine.com/2016/06/freebie-landing-page-template-with-flexbox/" class="btn">Скачать прайс</a>
+	</section>
+
+
+	<section id=onas class="our-work">
+		<h3 class="title">О компании</h3>
+		<p>Облако занимается поставкой одноразовых электронных сигарет по всему Дальнему востоку. Склад находится в Хабаровске. Доставка для Хабаровских заведений бесплатна. По остальному Дальнему Востоку отправим любой ТК.</p>
+		<hr>
+
+		<ul class="grid">
+			<li class="small" style="background-image: url(assets/img/odnor1.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/odnor4.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/odnor2.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/odnor5.jpg);"></li>
+			<li class="small" style="background-image: url(assets/img/odnor3.jpg);"></li>
+		</div>
+	</section>
+	
+
+	<section id=dostopl class="features">
+		<h3 class="title">Условия доставки и оплаты</h3>
+		<p>Принимаем оплату наличными и по счету. Минимальная сумма заказа – 5000р. По Хабаровску доставим бесплатно в течение суток. В другие города – согласно тарифам транспортной компании. Доставка до терминала ТК - бесплатно.  </p>
+		<hr>
+		<h3 class="title">Наши приемущества</h3>
+		<ul class="grid">
+			<li>
+				<img style="width: 50%;height: 50%; padding: 20px" src="assets/img/dollar.svg"></img>
+				<h4>Самые низкие цены</h4>
+			<li>
+				<img style="width: 50%;height: 50%; padding: 20px" src="assets/img/dolly.svg"></img>
+				<h4>Быстрые отгрузки</h4>
+			</li>
+			<li>
+				<img style="width: 50%;height: 50%; padding: 20px" src="assets/img/handshake.svg"></img>
+				<h4>Индивидуальные условия</h4>
+			</li>
+		</div>
+	</section>
+
+
+	<section id=contact class="reviews">
+		
+		<div>	<h3 class="title">Контакты:</h3>
+			<p class="author">Адрес:</p>
+			<p class="quote">Хабаровск, ул. Пушкина д.Колотушкина</p>
+			<p class="author">Телефон/WatsApp/Telegram:</p>
+			<p class="quote">+79656738652</p>
+			<p class="author">E-Mail:</p>
+			<p class="quote">oblakoeao@gmail.com</p>
+			<p class="author">Режим работы:</p>
+			<p class="quote">Ежедневно: с 11:00 до 19:00</p>
+		
+		</div>
+		<div id="inputArea">
+		<h3 class="title">Обратная связь:</h3>
+		<!-- Создаём форму и указываем её обработчик и метод -->
+		<form action="https://oblakoeao.github.io/oblako/index.php" method="post" name="form">
+		<!-- Поле ввода имени -->
+		<input name="name" type="text" placeholder="Ваше имя" />
+		<br>
+		<!-- Поле ввода почты  -->
+		<input name="email" type="text" placeholder="Ваша почта" />
+		<br>
+		<!-- Поле ввода для темы сообщения -->
+		<input size="30" name="header" type="text" placeholder="Тема" />
+		<br>
+		<!-- Текстовое поле для самого сообщения -->
+		<textarea cols="32" name="message" rows="5"> Текст сообщения
+		</textarea>
+		<br>
+		<!-- Кнопка с надписью «Отправить», которая запускает обработчик формы -->
+		<input type="submit" value="Отправить" />
+  		</form>
+	
+
+		
+	</section>
+
+
+
+	<footer>
+		<p>2021 © Облако</p>
+	</footer>
+
+</body>
+
+</html>
